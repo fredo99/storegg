@@ -1,6 +1,4 @@
-import React from 'react';
-
-export default function checkout() {
+export default function Checkout() {
   return (
     <section className="checkout mx-auto pt-md-100 pb-md-145 pt-30 pb-30">
       <div className="container-fluid">
@@ -142,7 +140,7 @@ export default function checkout() {
         <div className="d-md-block d-flex flex-column w-100 pt-50">
           <a
             className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg"
-            href="./complete-checkout.html"
+            href="./complete-checkout"
             role="button"
           >
             Confirm

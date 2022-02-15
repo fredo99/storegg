@@ -1,5 +1,5 @@
 import React from 'react';
-import Categori from './categori';
+import Categori from './Categori';
 import TableRow from './TableRow';
 
 function OverviewContent() {

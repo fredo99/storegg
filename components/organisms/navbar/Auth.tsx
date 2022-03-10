@@ -36,7 +36,7 @@ function Auth(props: Partial<AuthProps>) {
                         </li>
                         <li>
                             <Link href="/sign-in">
-                            <a className="dropdown-item text-lg color-palette-2" href="#">Log Out</a>
+                            <a className="dropdown-item text-lg color-palette-2" href="./sign-in">Log Out</a>
                             </Link>
                         </li>
                     </ul>
@@ -47,7 +47,7 @@ function Auth(props: Partial<AuthProps>) {
   return ( 
     <li className="nav-item my-auto">
         <Link href='/sign-in'>
-            <a className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill" href="./src/sign-in.html" role="button">
+            <a className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill" href="./sign-in" role="button">
             Sign In
             </a>
         </Link>
